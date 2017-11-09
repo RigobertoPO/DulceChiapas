@@ -1,0 +1,217 @@
+ /* CONFIGURACION GENERAL DEL NAVEGADOR */
+ 
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     background-color: #9E9E9E;
+ }
+ 
+ header{
+     background: #5D3C7E;
+     height: 220px;
+     text-align: center;
+     background-image: url("../img/logo.png");
+     background-repeat: no-repeat;
+     background-size: 250px 170px;
+ }
+ 
+ .areaPrincipal {
+     background-image: url("../img/fondo.jpg");
+     background-repeat: no-repeat;
+     width: 100%;
+     height: auto;
+     opacity: 0.7;
+     -webkit-background-size: 100% 100%;
+     /* Safari 3.0 */
+     -moz-background-size: 100% 100%;
+     /* Gecko 1.9.2 (Firefox 3.6) */
+     -o-background-size: 100% 100%;
+     /* Opera 9.5 */
+     background-size: 100% 100%;
+     /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+ }
+ 
+ footer{
+     width: 100%;
+     height: 100px;
+     background: #15101B;
+     bottom: 0;
+     color: white;
+     position: fixed;
+     left: 0px;
+ }
+ /* CONFIGURACION DEL MENU */
+ 
+ nav {
+     height: 40px;
+     position: relative;
+     top: 180px;
+ }
+ 
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333333;
+ }
+ 
+ li {
+     float: left;
+ }
+ 
+ li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 10px;
+     text-decoration: none;
+ }
+ 
+ li a:hover {
+     background-color: #111111;
+ }
+
+li a.linkLogin {
+    background-color: #03A9F4;
+}
+
+li.right {
+    float: right;
+}
+
+li a.linkLogin:hover {
+    background-color: #4CAF50;
+}
+
+.datosLogin {
+    color: white;
+}
+ 
+ /* CONFIGURACION PARA EL AREA DE INFORMACION */
+ 
+ 
+ 
+ p {
+     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+     font-size: 20px;
+ }
+ 
+
+ .copyright {
+    display: inline-block;
+    color: #a7d9e7;
+    font-size: 0.75em;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* ESTILOS GENERICOS PARA TABLAS */
+
+table {
+    width: 80%;
+    border: 1px solid #999;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+}
+
+caption,
+td,
+th {
+    padding: 0.3em;
+    font-family: "calibri", Garamond, 'Comic Sans';
+}
+
+th,
+td {
+    border-bottom: 1px solid #999;
+    width: 25%;
+    font-family: "calibri", Garamond, 'Comic Sans';
+}
+
+caption {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    font-family: "calibri", Garamond, 'Comic Sans';
+}
+
+
+/*INPUT*/
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* === Button Style === */
+
+button {
+    background-color: #68b12f;
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 0px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+}
+
+button:hover {
+    opacity: .85;
+    cursor: pointer;
+}
+
+button:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset;
+    -webkit-box-shadow: 0 0 10px 5px #356b0b inset;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+
+
+
+/*FORM*/
+
+form {
+    border: 2px solid #795548;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+/*configurando imagen LOGIN*/
+
+.container {
+    padding: 16px;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
